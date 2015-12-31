@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name    = "interactor-rails"
-  spec.version = "2.0.1"
+  spec.version = "2.0.2"
 
   spec.author      = "Collective Idea"
   spec.email       = "info@collectiveidea.com"
@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   spec.test_files = spec.files.grep(/^spec/)
 
   spec.add_dependency "interactor", "~> 3.0"
-  spec.add_dependency "rails", ">= 3", "< 4.2"
+  spec.add_dependency "rails", ">= 3", "<= 5"
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.3"
